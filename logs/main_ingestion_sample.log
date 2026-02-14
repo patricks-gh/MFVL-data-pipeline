@@ -1,0 +1,51 @@
+------------------------------------------------------------------------------------------
+--------------------------------- DATA INGESTION STARTED ---------------------------------
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+ PROCESS: [MODULE_NAME] 
+------------------------------------------------------------------------------------------
+Successfully connected to source: [DATA_SOURCE] | Tab: [TAB_NAME]
+Validation complete. [N] rows cleared.
+[N] rows available. Uploading to [SCHEMA].[TABLE_NAME]
+SUCCESS: Uploaded to Supabase at [DATE] at [TIME] PST.
+STATUS: Processed [N] rows in [X.XX]s
+
+------------------------------------------------------------------------------------------
+ PROCESS: [MODULE_NAME] 
+------------------------------------------------------------------------------------------
+Successfully connected to source: [DATA_SOURCE] | Tab: [TAB_NAME]
+Validation complete. [N] rows cleared.
+[N] rows available. Uploading to [SCHEMA].[TABLE_NAME]
+SUCCESS: Uploaded to Supabase at [DATE] at [TIME] PST.
+STATUS: Processed [N] rows in [X.XX]s
+
+------------------------------------------------------------------------------------------
+ PROCESS: [MODULE_NAME] 
+------------------------------------------------------------------------------------------
+Successfully connected to source: [DATA_SOURCE] | Tab: [TAB_NAME]
+Validation complete. [N] rows cleared.
+[N] rows available. Uploading to [SCHEMA].[TABLE_NAME]
+SUCCESS: Uploaded to Supabase at [DATE] at [TIME] PST.
+STATUS: Processed [N] rows in [X.XX]s
+
+------------------------------------------------------------------------------------------
+ PROCESS: [MODULE_NAME] 
+------------------------------------------------------------------------------------------
+Successfully connected to source: [DATA_SOURCE] | Tab: [TAB_NAME]
+Validation complete. [N] rows cleared.
+[N] rows available. Uploading to [SCHEMA].[TABLE_NAME]
+SUCCESS: Uploaded to Supabase at [DATE] at [TIME] PST.
+STATUS: Processed [N] rows in [X.XX]s
+
+------------------------------------------------------------------------------------------
+-------------------------------- DATA INGESTION FINISHED ---------------------------------
+------------------------------------------------------------------------------------------
+STATISTICS:
+- Total Time: [XX.XX]s
+- Tasks: [X]/[X] completed successfully
+- Total Rows Processed: [NNN]
+
+==========================================================================================
+          LOG SAVED TO: [PROJECT_ROOT]/logs/[FILENAME].log          
+==========================================================================================

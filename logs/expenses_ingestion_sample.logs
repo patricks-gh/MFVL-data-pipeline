@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------------------------
+(ROW [N]) DATA: expense_record_date: [MM/DD/YYYY HH:MM:SS] | expense_date: [M/DD/YYYY] | account_code: [XXXX] | expense_description: [STUB_TEXT] | expense_amount: [0.00] | expense_sender: [USER_NAME]
+ERROR: expense_record_date: Input should be a valid datetime or date, invalid character in year; expense_date: Input should be a valid date or datetime, input is too short
+----------------------------------------------------------------------------------------------------
+(ROW [N+1]) DATA: expense_record_date: [MM/DD/YYYY HH:MM:SS] | expense_date: [M/DD/YYYY] | account_code: [XXXX] | expense_description: [STUB_TEXT] | expense_amount: [0.00] | expense_sender: [USER_NAME]
+ERROR: expense_record_date: Input should be a valid datetime or date, invalid character in year; expense_date: Input should be a valid date or datetime, input is too short
+----------------------------------------------------------------------------------------------------
+(ROW [N+2]) DATA: expense_record_date: [MM/DD/YYYY HH:MM:SS] | expense_date: [M/DD/YYYY] | account_code: [XXXX] | expense_description: [STUB_TEXT] | expense_amount: [0.00] | expense_sender: [USER_NAME]
+ERROR: expense_record_date: Input should be a valid datetime or date, invalid character in year; expense_date: Input should be a valid date or datetime, input is too short
+----------------------------------------------------------------------------------------------------
+... and more rows after, depending on the ingestion

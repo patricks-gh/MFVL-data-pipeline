@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------------------------
+(ROW [N]) DATA: record_date: [MM/DD/YYYY HH:MM:SS] | entry_date: [YYYY-MM-DD] | item: [ITEM_NAME] | cost: [0.00] | desc: [STUB_TEXT] | source: [FILENAME.EXT] | code: [XXXX]
+ERROR: record_date: Input should be a valid datetime or date, invalid character in year
+----------------------------------------------------------------------------------------------------
+(ROW [N+1]) DATA: record_date: [MM/DD/YYYY HH:MM:SS] | entry_date: [YYYY-MM-DD] | item: [ITEM_NAME] | cost: [0.00] | desc: [STUB_TEXT] | source: [FILENAME.EXT] | code: [XXXX]
+ERROR: record_date: Input should be a valid datetime or date, invalid character in year
+----------------------------------------------------------------------------------------------------
+(ROW [N+2]) DATA: record_date: [MM/DD/YYYY HH:MM:SS] | entry_date: [YYYY-MM-DD] | item: [ITEM_NAME] | cost: [0.00] | desc: [STUB_TEXT] | source: [FILENAME.EXT] | code: [XXXX]
+ERROR: record_date: Input should be a valid datetime or date, invalid character in year
+----------------------------------------------------------------------------------------------------
+... and more rows after, depending on the ingestion

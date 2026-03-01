@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------------------------
+(ROW [N]) DATA: recurring_fee_record_date: None | recurring_fee_date: [YYYY-MM-DD] | recurring_fee_name: [FEE_TYPE] | recurring_fee_amount: [0.00] | recurring_fee_status: [STATUS] | recurring_fee_payment_status: [PAID/UNPAID] | recurring_fee_account_code: [XXXX] | recurring_fee_payment_terms: [TERM]
+ERROR: recurring_fee_record_date: Value error, Required fields cannot be NULL
+----------------------------------------------------------------------------------------------------
+(ROW [N+1]) DATA: recurring_fee_record_date: None | recurring_fee_date: [YYYY-MM-DD] | recurring_fee_name: [FEE_TYPE] | recurring_fee_amount: [0.00] | recurring_fee_status: [STATUS] | recurring_fee_payment_status: [PAID/UNPAID] | recurring_fee_account_code: [XXXX] | recurring_fee_payment_terms: [TERM]
+ERROR: recurring_fee_record_date: Value error, Required fields cannot be NULL
+----------------------------------------------------------------------------------------------------
+(ROW [N+2]) DATA: recurring_fee_record_date: None | recurring_fee_date: [YYYY-MM-DD] | recurring_fee_name: [FEE_TYPE] | recurring_fee_amount: [0.00] | recurring_fee_status: [STATUS] | recurring_fee_payment_status: [PAID/UNPAID] | recurring_fee_account_code: [XXXX] | recurring_fee_payment_terms: [TERM]
+ERROR: recurring_fee_record_date: Value error, Required fields cannot be NULL
+----------------------------------------------------------------------------------------------------
+... and more rows after, depending on the ingestion

@@ -1,0 +1,14 @@
+[project]
+name = "rawdata-ingestion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gspread>=6.2.1",
+    "polars>=1.38.1",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "pytz>=2025.2",
+    "supabase>=2.27.3",
+]
